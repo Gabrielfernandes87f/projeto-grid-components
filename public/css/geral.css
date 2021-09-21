@@ -1,0 +1,24 @@
+.logoSvg {
+    width: 85px;
+    height: 68px;
+}
+
+.navbar-toggler {
+
+
+}
+
+
+/* regra funcina pra tudo que tiver menos de 1024 
+@media (max-width: 1240px) {
+    a {
+      font-size: 4rem;
+    }
+  } 
+
+*/
+
+
+.carousel-item img {
+    background-size: cover;
+}

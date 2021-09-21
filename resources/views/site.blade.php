@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
   <meta charset="utf-8">
@@ -140,12 +140,16 @@
 
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/geral.css">
+  
 </head>
 
 <body>
 
   <header>
       <x-menu-principal/>
+      
   </header>
 
   <main>
